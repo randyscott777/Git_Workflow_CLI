@@ -1,0 +1,5 @@
+print('view the differences between commits via: git diff')
+print('view the differences between the working area and the staging area via: git diff --staged')
+print('view the differences between the staging area and the last commit via: git diff --cached')
+print('view the differences between the working area and the last commit via: git diff HEAD')
+print('view the differences between two branches via: git diff branch1 branch2')
