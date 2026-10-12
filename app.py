@@ -13,15 +13,22 @@ while True:
         exit()
     elif opt == '2':
         print('Showing current Git status...')
+        exit()
     elif opt == '3':
-        print('Adding changes to staging area...')
+        print('git add . will add all changes to the staging area.')
+        exit()
     elif opt == '4':
-        message = input('Enter commit message: ')
-        print(f'Committing changes with message: {message}')
+        print(f'Commit via: git commit -m "Your commit message here"')
+        exit()
     elif opt == '5':
-        print('Pushing changes to remote repository...')
+        print('Pushing changes to remote repository via:')
+        print('if 1st time: gh repo create Git_Workflow_CLI --public')
+        print('if link needed: git remote add origin https://github.com/randyscott777/Git_Workflow_CLI.git')
+        print('to push changes to the remote repository: git push origin main')
+        exit()
     elif opt == '6':
         print('Pulling changes from remote repository...')
+        exit()
     else:
         print('Invalid choice. Please try again.')  
     print()
