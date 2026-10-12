@@ -1,3 +1,5 @@
 # README.md
 This project demostrates live how to use commands for git workflow.
-Pull requests tbd
+
+For a pull request, create a branch, add, commit, and push the branch.
+then create a pull request and then finally merge it.
